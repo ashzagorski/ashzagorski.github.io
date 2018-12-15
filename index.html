@@ -1,3 +1,10 @@
+
+<?php
+if($_POST["message"]) {
+    mail("ash.zagorski@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,7 +62,6 @@
                         <ul class="nav-menu-inner">
                             <li><a href="#intro">Home</a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="img/resume.png" target="_blank" class="nav-link link-scroll">Resume</a></li>
                             <li><a href="#portfolio">Portflio</a></li>
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#interests">Interests</a></li>
@@ -408,7 +414,7 @@
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
 
-                            <form id="contact" class="row contact-form" role="form" action="mailto:ash.zagorski@gmail.com" method="post" enctype="text/plain">>
+                            <form id="contact-me" class="row contact-form" role="form" action="mailto:ash.zagorski@gmail.com" method="post" enctype="text/plain">>
                                 <div class="col-md-12 text-center">
                                     <h5 class="successContent">
                                         <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
@@ -466,7 +472,7 @@
                     <!-- Social -->
                     <ul class="social">
                         <li>
-                            <a href="https://www.linkedin.com/ashley-zagorski" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/ashley-zagorski/" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </li>
                         <li>
                             <a href="https://github.com/ashzagorski" target="_blank"><i class="fa fa-github"></i></a>
