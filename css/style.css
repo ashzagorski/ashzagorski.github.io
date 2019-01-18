@@ -301,7 +301,7 @@ h5 {
 }
 
 h6 {
-    font-size: 12px;
+    font-size: 20px;
 }
 
     h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, h6 .white {
@@ -1994,8 +1994,8 @@ form label.error {
 .intro-img-circle {
     margin-left: auto;
     margin-right: auto;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border: 5px solid rgba(0,0,0, 0.2);
     border-radius: 50%;
     -moz-border-radius: 50%;
